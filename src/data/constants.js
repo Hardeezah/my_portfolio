@@ -12,9 +12,9 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1eAb9dG9RT0-lmAABiycdh_8GJ87U0f2o/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/hadiza-mohammed/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  twitter: "",
+  insta: "",
+  facebook: "",
 };
 
 export const skills = [
@@ -143,27 +143,27 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
+  // {
+  //   id: 0,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+  //   role: "DevOps & Fullstack Engineering Intern",
+  //   company: "Flipr Inovations Pvt. Ltd.",
+  //   date: "Aug 2023 - July 2023",
+  //   desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+  //   skills: [
+  //     "Docker",
+  //     "Terraform",
+  //     "AWS",
+  //     "EC2",
+  //     "Portainer",
+  //     "Nginx",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "Node Js",
+  //     " Next Js",
+  //   ],
+  //   doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+  // },
   
 ];
 
@@ -191,32 +191,67 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
-    title: "Trackify",
-    date: "Jun 2023 - Jul 2023",
+    id: 0,
+    title: "Connect",
+    date: "Sept 2023 - Dec 2023",
     description:
-      "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
+      "Connect is a socia media app for posting images, likes and saving to database",
     image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+      "https://live.staticflickr.com/65535/53433096325_df1e0d2294_b.jpg",
     tags: [
-      "Docker",
-      "AWS",
-      "DuckDNS",
-      "Eslint",
-      "Husky",
-      "CI/CD",
+      "Appwrite",
       "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Redux",
+      "React Query",
+      "TypeScript",
+      "Taiwind",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/Trackify",
-    webapp: "https://trackify.duckdns.org",
+    github: "https://github.com/Hardeezah/connect",
+    webapp: "https://connect-3t3e.vercel.app/sign-in",
+  },
+  {
+    id: 1,
+    title: "MetaVerse",
+    date: "June 2023 - July 2023",
+    description:
+      "Dynamic and interactive metaverse website that seamlessly adapts to user actions, all while harnessing the power of Next.js for optimal performance and responsiveness",
+    image:
+      "https://i.ibb.co/2FfvHxh/Screenshot-114.png",
+    tags: [
+      "React Js",
+       "Tailwind",
+       "Next Js",
+       "Framer Motion",
+    ],
+    category: "web app",
+    github: "https://github.com/Hardeezah/metaverse",
+    webapp: "https://metaverse-wunc.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "PriceTracker",
+    date: "Aug 2023 - Sept 2023",
+    description:
+      "Track prices effortlessly. Never overpay again. Your smart shopping companion.",
+    image:
+      "https://i.postimg.cc/SkbywCD9/Screenshot-115.png",
+    tags: [
+      "React Js",
+       "Next Js",
+       "Mongo DB",
+       "Mongoose",
+       "Cheerio",
+       "Tailwind",
+       "Typescript",
+       "Cron Job",
+
+    ],
+    category: "web app",
+    github: "https://github.com/Hardeezah/price__tracker",
+    webapp: "https://price-tracker-e8ww.vercel.app/",
   },
   
-];
+];  
 
 export const TimeLineData = [
   { year: 2020, text: "Started my journey" },
