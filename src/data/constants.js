@@ -207,7 +207,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Hardeezah/connect",
-    webapp: "https://connect-3t3e.vercel.app/sign-in",
+    webapp: "https://connect-3t3e.vercel.app/",
   },
   {
     id: 1,
@@ -248,6 +248,24 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/Hardeezah/price__tracker",
+    webapp: "https://price-tracker-e8ww.vercel.app/",
+  },
+    {
+    id: 3,
+    title: "Youtube clone",
+    date: "Sept 2021 - Oct 2021",
+    description:
+      "Watch Your favourite youtbe videos here",
+    image:
+      "https://i.ibb.co/vDThL5C/Screenshot-126.png",
+    tags: [
+      "React Js",
+       "Material UI",
+       "axios",
+       "vite",
+    ],
+    category: "web app",
+    github: "https://github.com/Hardeezah/advs",
     webapp: "https://price-tracker-e8ww.vercel.app/",
   },
   
